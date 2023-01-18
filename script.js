@@ -1,5 +1,5 @@
-let minute = 0;
-let second = 5;
+let minute = 25;
+let second = 0;
 let startInterval ;
 let stopInterval;
 let isBreak = false;
@@ -22,8 +22,8 @@ function start() {
     
     if (minute == 0 && second == 0 && !isBreak) {
         alarm.play();
-        minute = 0;
-        second = 15;
+        minute = 5;
+        second = 0;
         isBreak = true;
     }
     if(isBreak){
