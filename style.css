@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999;
+    color: #333;
+}
+header{
+    height: 80px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.header h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999;
+    
+    
+    flex-direction: column;
+}
+.box{
+    border: 3px solid #444;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clock{
+    
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+.text{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+.start{
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #00FF00;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+.stop{
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #FF0000;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+.reset{
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #0000FF;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
